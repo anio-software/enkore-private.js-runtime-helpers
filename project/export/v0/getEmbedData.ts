@@ -1,9 +1,9 @@
-import type {EnkoreJSRuntimeProjectContext} from "@anio-software/enkore-private.spec"
+import type {EnkoreJSRuntimeProjectAPIContext} from "@anio-software/enkore-private.spec"
 import {translateEmbedURLToGlobalIdentifier} from "./translateEmbedURLToGlobalIdentifier.ts"
 import {getGlobalState} from "./getGlobalState.ts"
 
 export function getEmbedData(
-	context: EnkoreJSRuntimeProjectContext,
+	context: EnkoreJSRuntimeProjectAPIContext,
 	url: string
 ): Uint8Array {
 	let embedData = ``

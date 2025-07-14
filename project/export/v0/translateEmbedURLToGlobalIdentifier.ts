@@ -1,8 +1,8 @@
-import type {EnkoreJSRuntimeProjectContext} from "@anio-software/enkore-private.spec"
+import type {EnkoreJSRuntimeProjectAPIContext} from "@anio-software/enkore-private.spec"
 import {_parseEmbedURLRemoveMeAfterUpdate} from "./_parseEmbedURLRemoveMeAfterUpdate.ts"
 
 export function translateEmbedURLToGlobalIdentifier(
-	context: EnkoreJSRuntimeProjectContext,
+	context: EnkoreJSRuntimeProjectAPIContext,
 	embedURL: string
 ): string {
 	const {name, version} = context.project.packageJSON
