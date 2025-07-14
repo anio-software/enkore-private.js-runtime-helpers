@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@anio-software/enkore-private.js-runtime-helpers",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Anio Software <info@anio.software>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anio-software/enkore-private.js-runtime-helpers.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@anio-software/enkore": "^0.0.190",
+    "@anio-software/enkore-private.spec": "^0.391.0",
+    "@anio-software/enkore.core": "^0.13.1",
+    "@anio-software/enkore.target-js-hybrid-lite": "^0.0.363"
+  }
+}
